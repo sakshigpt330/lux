@@ -1,0 +1,46 @@
+.galleryImg {
+  width: 120px;
+  height: 120px;
+}
+
+.pad_5 {
+  padding: 5px;
+}
+
+.parallelogram {
+	width: 100px;
+	height: 50px;
+	transform: skew(20deg);
+}
+
+.rectangle {
+  height: 50px;
+  width: 100px;
+}
+
+.oval {
+  height: 50px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.square {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+}
+
+.center {
+  text-align: center;
+  padding: 50px;
+}
+
+.pointer {
+  cursor: pointer;
+}
