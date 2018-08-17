@@ -1,3 +1,52 @@
+li {
+  list-style: none;
+  display: inline;
+}
+
+select {
+  width: 130px;
+  height: 28px;
+}
+
+input {
+  width: 120px;
+  height: 28px;
+  padding: 3px;
+}
+
+button {
+  color: #fff;
+  background-color: #0000ffb3;
+  width: 130px;
+  height: 28px;
+  border: 1px solid #00ffbba6;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+label {
+  display: block;
+  margin: 3px;
+}
+
+.boxBtn {
+  padding: 2px 5px;
+  border: 1px solid #000;
+  margin:7px;
+  width: 60px;
+}
+
+.inputWrap {
+  margin: 20px 0px;
+}
+
+.bg_gray {
+  background-color: gray;
+  width: 70%;
+  height: 70%;
+  margin: 0 auto;
+}
+
 .galleryImg {
   width: 120px;
   height: 120px;
@@ -6,34 +55,84 @@
 .pad_5 {
   padding: 5px;
 }
+.pad_15 {
+  padding: 15px;
+}
+
+.pad_15_5 {
+  padding: 15px 5px;
+}
+
+.bg_white {
+  background-color: #fff;
+  min-height: 450px;
+}
+
+.blockLabel {
+  display: block;
+}
+
+.mglt_20 {
+  margin-left: 20px;
+}
+
+.mgtp_30 {
+  margin-top: 30px;
+}
+
+.flt_lt {
+  float: left;
+}
+
+.wd_50 {
+  width: 50%;
+}
+
+.wd_20 {
+  width: 20%;
+}
+
+.pdlt_28 {
+  padding-left: 28px;
+}
+
+.projectWrap {
+  width: 100%;
+  min-height: 300px;
+}
 
 .parallelogram {
 	width: 100px;
 	height: 50px;
 	transform: skew(20deg);
+  margin: 2px;
 }
 
 .rectangle {
   height: 50px;
   width: 100px;
+  margin: 2px;
 }
 
 .oval {
   height: 50px;
   width: 100px;
   border-radius: 50%;
+  margin: 2px;
 }
 
 .circle {
   height: 50px;
   width: 50px;
   border-radius: 50%;
+  margin: 2px;
 }
 
 .square {
   height: 50px;
   width: 50px;
   background-color: #555;
+  margin: 2px;
 }
 
 .center {
@@ -41,6 +140,20 @@
   padding: 50px;
 }
 
+.lastUsed {
+  width: 30px;
+  height: 30px;
+}
+
 .pointer {
   cursor: pointer;
+}
+
+.tab {
+  padding: 5px 15px;
+  border: 2px solid #000;
+  cursor: pointer;
+}
+.active {
+  background-color: gray;
 }
